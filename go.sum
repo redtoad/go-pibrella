@@ -1,0 +1,4 @@
+github.com/matryer/runner v0.0.0-20190427160343-b472a46105b1 h1:pef9ZgSvXvPH2mhGE52qUbaub5A/yboHEOk1si1PFcw=
+github.com/matryer/runner v0.0.0-20190427160343-b472a46105b1/go.mod h1:lISxzZiuWDeqvTOUohfA3Wgu+WktSrH1pxW02wZ9mUQ=
+github.com/stianeikeland/go-rpio v4.2.0+incompatible h1:CUOlIxdJdT+H1obJPsmg8byu7jMSECLfAN9zynm5QGo=
+github.com/stianeikeland/go-rpio v4.2.0+incompatible/go.mod h1:Sh81rdJwD96E2wja2Gd7rrKM+XZ9LrwvN2w4IXrqLR8=
