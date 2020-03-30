@@ -1,7 +1,6 @@
 package pibrella
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/matryer/runner"
@@ -63,7 +62,6 @@ func (l Light) Blink() {
 	// start new blinking task
 	tasks[l.Pin] = runner.Go(func(shouldStop runner.S) error {
 		for {
-			fmt.Printf("toggle pin %d\n", l.Pin)
 			l.Pin.Toggle()
 			if shouldStop() {
 				break
